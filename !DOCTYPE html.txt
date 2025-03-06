@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #e0f7fa; }
+        header { background: #0277bd; color: white; padding: 15px; text-align: center; }
+        nav { text-align: center; margin: 10px 0; }
+        nav a { margin: 0 15px; text-decoration: none; color: #0277bd; font-weight: bold; }
+        .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; background: white; }
+        .post { border-bottom: 1px solid #ddd; padding: 20px 0; }
+        .post h2 { color: #01579b; }
+        .post p { color: #666; }
+        .post img { width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin-top: 10px; }
+        footer { text-align: center; padding: 15px; background: #0277bd; color: white; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="post">
+            <h2>First Blog Post</h2>
+            <img src="https://via.placeholder.com/800x400?text=Baby+Image+1" alt="Baby">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+        </div>
+        <div class="post">
+            <h2>Second Blog Post</h2>
+            <img src="https://via.placeholder.com/800x400?text=Baby+Image+2" alt="Toddler">
+            <p>Curabitur vehicula, dolor vel pharetra lacinia, sapien libero viverra justo.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 My Blog | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
